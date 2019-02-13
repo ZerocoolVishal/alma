@@ -113,8 +113,8 @@
 								<li class="icon fa-snowflake-o">Imported Switches</li>
 							</ul>
 							<ul class="actions">
-								<li><a target="_blank" id="myBtn" href="downloads/Alma Brochure.pdf" class="button large icon fa-download">Download Brochure</a></li>
-								<li><a target="_blank" id="myBtn" href="http://asset1.cfcdn.com/emodel/mumbai/Malaga-Mumbai-01/Malaga-Mumbai.html" class="button primary large">Virtual Tour</a></li>
+								<li><a target="_blank" id="myBtn1" href="downloads/Alma Brochure.pdf" class="button large icon fa-download">Download Brochure</a></li>
+								<li><a target="_blank" id="myBtn2" href="http://asset1.cfcdn.com/emodel/mumbai/Malaga-Mumbai-01/Malaga-Mumbai.html" class="button primary large">Virtual Tour</a></li>
 							</ul>
 						</div>
 					</section>
@@ -614,14 +614,22 @@ print 'Sorted in ' + i + ' iterations.';</code></pre>
 				// Get the modal
 				var modal = document.getElementById('myModal');
 
-				// Get the button that opens the modal
-				var btn = document.getElementById("myBtn");
-
 				// Get the <span> element that closes the modal
 				var span = document.getElementsByClassName("close")[0];
 
+				// Get the button that opens the modal
+				var btn1 = document.getElementById("myBtn1");
+
 				// When the user clicks the button, open the modal 
-				btn.onclick = function() {
+				btn1.onclick = function() {
+					modal.style.display = "block";
+				}
+
+				// Get the button that opens the modal
+				var btn2 = document.getElementById("myBtn2");
+
+				// When the user clicks the button, open the modal 
+				btn2.onclick = function() {
 					modal.style.display = "block";
 				}
 
