@@ -61,6 +61,13 @@
 				cursor: pointer;
 			}
 
+			@media only screen and (max-width: 600px) {
+
+				.youtube {
+					max-width: 330px;
+				}
+
+			} 
 			
 		</style>
 	</head>
@@ -125,9 +132,15 @@
 						</header>
 						<div class="content">
 							<h4>Malaga Township</h4>
-							<iframe width="510" height="300" src="https://www.youtube.com/embed/iQoAvONpAVM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							<iframe class="youtube" width="510" height="300" src="https://www.youtube.com/embed/iQoAvONpAVM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 							<p><strong>Welcome to Malaga, ALMA</strong>. A kingdom castled by green environs. A realm embedded with European luxuries. Coming up to change your views about life and to change the way you live. Get mesmerised with the well-aligned palm trees trail as you enter. Be welcomed by a ALMA Square, made of granite stones, standing tall amidst green landscapes & water bodies. By the side of European motifs and cobbled streets, live a unique lifestyle adorned with European luxury features and amenities. Now this is called a redefined European way of living. Now this is called ALMA. </p>
-							<span class="image main"><img src="images/pic02.jpeg" alt="" /></span>
+							<span class="image main">
+								<img src="images/pic02.jpeg" style="
+								margin-right: auto;
+								margin-left: auto;
+								max-width: 700px;
+							" width="400" alt="" />
+							</span>
 						</div>
 					</section>
 
